@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # CORS settings for development environment only!  Remove in production environments to prevent security vulnerabilities and
 # Whitelisting React port
-CORS_ORIGIN_WHITELIST = ['http://localhost:8000']
+CORS_ORIGIN_WHITELIST = ['http://192.168.1.101:3000', 'http://localhost:3000']
 
 
 # Internationalization
